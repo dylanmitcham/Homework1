@@ -35,6 +35,7 @@ public class AddingMachine
   
   public void clear() // reverts total value back to 0
   {
+	  result = result + " -cleared- 0"; // i added this code so that the toString method shows that the total was cleared
 	  total = 0;
   }
 }
